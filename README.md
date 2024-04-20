@@ -21,7 +21,11 @@ This is a simple web application that allows users to check if a given string is
 
 ## Deployed Version
 
+<<<<<<< HEAD
 The app is deployed and accessible at [Palindrome Checker App](https://example.com).
+=======
+The app is deployed and accessible at [Palindrome Checker App](https://palindromechecker-brynsgtn.netlify.app/).
+>>>>>>> refs/remotes/origin/main
 
 ## Usage
 
