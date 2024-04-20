@@ -11,20 +11,30 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>Palindrome Checker</title>
   </head>
-  <body class="container">
-  
-    <h2>Is it a Palindrome?</h2>
-    <div class="palindrome-div">
-        <label for="text-input">Enter in text to check for a palindrome:<label>
-        <input class="palindrome-input" id="text-input" value type="text"></input>
-        <button class="palindrome-button" id="check-btn">Check</button>
-        <div class="result-div" id="result"></div>
-    </div>  
-    <p> 💡 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+  <body>
+    <div class="container">
+        <h2 class="title">Is it a Palindrome?</h2>  
+        <div class="palindrome-div">
+          <div class="palindrome-content">
+            <div class="label">
+              <label for="text-input">Enter in text to check for a palindrome:<label></label>
+            </div>
+            <div class="input">
+              <input class="palindrome-input" id="text-input" value type="text" autocomplete="off"></input>
+            </div>
+            <div class="button">
+              <button class="palindrome-button" id="check-btn">Check</button>
+            </div>
+            <div class="result-div" id="result"></div>
+          </div>    
+          
+        </div>
+      <div class="about">
+        <p> 💡 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+      </div>
+    </div>
 
   </body>
   <!-- Script tag -->
-
-  
   <script src="script.js"></script>
 </html>

@@ -12,8 +12,8 @@ checkButtonEl.addEventListener("click", function() {
   if (value.length === 0){
     alert("Please input a value")
   } else if (lowerCaseValue === reverseValue) {
-    resultEl.innerHTML = `<p>${value} is a palindrome</p>`
+    resultEl.innerHTML = `<p>"<em>${value}</em>" is a palindrome</p>`
   } else {
-    resultEl.innerHTML = `<p>${value} is a <strong>NOT</strong> palindrome</p>`
+    resultEl.innerHTML = `<p>"<em>${value}</em>" is a <strong>NOT</strong> palindrome</p>`
   }
 });
