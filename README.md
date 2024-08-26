@@ -20,7 +20,7 @@ This is a simple web application that allows users to check if a given string is
 
 - This project is part of the [FreeCodeCamp](https://www.freecodecamp.org/) curriculum.
 - Used resources and documentation from [W3Schools](https://www.w3schools.com/) for HTML, CSS, and JavaScript.
-- Used resources and documentation from [TypeScript] (https://www.typescriptlang.org/) for TypeScript.
+- Used resources and documentation from [TypeScript](https://www.typescriptlang.org/) for TypeScript.
 
 ## Deployed Version
 
