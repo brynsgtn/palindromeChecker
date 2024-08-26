@@ -1,0 +1,15 @@
+{
+  "name": "palindromechecker",
+  "version": "1.0.0",
+  "description": "This is a simple web application that allows users to check if a given string is a palindrome or not. It's built using HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

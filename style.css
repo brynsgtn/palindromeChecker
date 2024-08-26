@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
   }
 
 .container {
@@ -73,9 +74,14 @@
     border: none;
     border-bottom: 2px solid #A79277;
     background-color: #D1BB9E;
+    outline: none;
   }
 
-.palindrome-button {
+  .palindrome-button:focus {
+    outline: none;
+  }
+
+.palindrome-button, .clear-button {
     width: 90px;
     border: none;
     padding: 10px;
@@ -83,6 +89,10 @@
     background-color: #A79277;
     color: #fff;
     cursor: pointer;
+  }
+
+  .clear-button {
+    display: none;
   }
 
 .button {
